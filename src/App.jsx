@@ -44,7 +44,7 @@ export default function App() {
       </main>
       <footer className='flex gap-3 text-white h-[20vh]
        justify-center items-center'>
-        <select className='p-2 border-2 rounded-3xl bg-black'
+        <select className='cursor-pointer p-2 border-2 rounded-3xl bg-black'
          value={targetLang} onChange={(e)=>{setTargetLang(e.target.value)}}>
             <option value="es">Spanish</option>
             <option value="hi">Hindi</option>
@@ -56,7 +56,7 @@ export default function App() {
         <input className='border-2 w-[70vw] rounded-3xl p-2 text-left'
         type="text" placeholder='Write text'
         value={text} onChange={(e)=>{setText(e.target.value)}} />
-        <button className='border-2 rounded-3xl p-2 w-30'
+        <button className='cursor-pointer border-2 rounded-3xl p-2 w-30'
         onClick={handleTranslate}>Send</button>
       </footer>
     </>
