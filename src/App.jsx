@@ -40,7 +40,7 @@ export default function App() {
       </nav>
       <main className='flex flex-col gap-10 text-white h-[70vh] w-screen items-center justify-center'>
         <h1 className='sm:text-2xl md:text-3xl xl:text-4xl'>Translate Your Text</h1>
-        <p>{translated}</p>
+        <p className='sm:text-xl md:text-2xl lg:text-3xl'>{translated}</p>
       </main>
       <footer className='flex gap-3 text-white h-[20vh]
        justify-center items-center'>
