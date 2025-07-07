@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
-div{
-    background-image: url(assets/4246646.jpg);
+
+body{
+    background-image: url(assets/wp8861804.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
